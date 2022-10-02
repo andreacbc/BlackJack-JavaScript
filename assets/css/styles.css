@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+
+html, body {
+    margin: 0;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1.25rem;
+    font-size: 1.56rem;
+}
+
+.cards {
+    position: relative;
+    left: 6.25rem;
+    width: 9.38rem;
+    margin-left: -4.69rem;
+}
+
+#computer-cards,
+#player-cards {
+    height: 15rem;
+}
